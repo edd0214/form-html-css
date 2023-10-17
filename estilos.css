@@ -1,0 +1,103 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    background-image: linear-gradient( 60deg, rgba(58, 58, 180, 0.9), rgba(136, 136, 206, 0.7) ), url(https://wallpapercave.com/wp/wp5142281.jpg);
+    color: white;
+    margin: 0;
+  }
+  .contenedor {
+    width: 100%;
+    margin: 3.125rem auto 0 auto
+  }
+  .encabezado {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+  }
+  #title{
+    text-align: center;
+    font-weight: 400px;
+    line-height: 1.2;
+    
+    font-size: 2em
+  }
+  #description{
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(13, 197, 123, 0.4);
+    display: block;
+    font-size: 1.125rem;
+  }
+  h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  #survey-form {
+    display: block;
+    padding: 2.5rem 0.625rem;
+    margin-top: 0em;    
+  }
+  .form-gpo {    
+    max-width: 75%;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;  
+  }
+  div{
+    display: block;
+  }
+  label{
+    display: block;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-ctrl {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  #comment{
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: center;
+  }
+  #submit{    
+    width: 30%;
+    padding: 0.75rem;
+    background: #37af65;
+    color: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  #submit:hover{
+    color: palegreen;
+    background: teal;
+  }
+  
